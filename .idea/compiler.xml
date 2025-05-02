@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="analytics-service" />
+        <module name="api-gateway" />
+        <module name="auth-service" />
         <module name="customer-service" />
         <module name="billing-service" />
       </profile>
@@ -15,6 +17,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="analytics-service" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="auth-service" options="-parameters" />
       <module name="billing-service" options="-parameters" />
       <module name="customer-service" options="-parameters" />
     </option>
